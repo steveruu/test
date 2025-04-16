@@ -4,7 +4,7 @@ console.log("XSS");
 (function() {
   // Create audio element for background music
   const audio = document.createElement('audio');
-  audio.src = 'https://cf-media.sndcdn.com/U6vde12792UH?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vVTZ2ZGUxMjc5MlVIKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NDgzNjQ5OX19fV19&Signature=BoOKeiIURXV2otRhbfTtAiB6ao9FxMCJEp5wmVQgT3CqR5zpt1UFw8Dy6vdTl5im1DtWfSCDXpqp6eoiP7oWxBrGOeixCYltCqbbDQ56yqrGJ1LVSU~x01ZRp7iOpxuu5zdx4xAd2MFJm5bOC8bTmMrq745uuH~hvsOEJkQNOM-J8-wdu4VpmgY6bJFb2~5mCekODHFbZNV3WpVikETxXtVdNXkLdBKHjbz2gy65Klkjv9TztzWu9-V8GORNedL~Lnqq5retN-dchJ2k7odatufUEPdTwp094AJ7Qz9X5G6GQCPX5x05l~K9qjiTKB53BqxzhxJ8BqjTuBGnbFNx0A__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ';
+  audio.src = 'https://github.com/steveruu/test/raw/refs/heads/main/HILL%20CLIMB%20RACING%20EDIT.mp3';
   audio.loop = true;
   audio.volume = 0.5;
   document.body.appendChild(audio);
