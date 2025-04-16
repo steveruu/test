@@ -4,7 +4,7 @@ console.log("XSS");
 (function() {
   // Create audio element for background music - preload it
   const audio = document.createElement('audio');
-  audio.src = 'https://github.com/steveruu/test/raw/refs/heads/main/HILL%20CLIMB%20RACING%20EDIT.mp3';
+  audio.src = 'https://cdn.jsdelivr.net/gh/steveruu/test@main/HILL%20CLIMB%20RACING%20EDIT.mp3';
   audio.loop = true;
   audio.volume = 0.5;
   audio.preload = 'auto'; // Ensure audio is preloaded
